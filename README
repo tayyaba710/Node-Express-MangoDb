@@ -1,9 +1,13 @@
 What is node ?
 Open-source, cross platform runtime environment for executing the javascript code outside of a browse.
 Addvantages
-*Great for prototyping and agile development 
+*Great for prototyping and agile development
 *superfast and highly scalable
 *javascript everywhere
 *cleaner and more consistent codebase
-*Large eco-systems of open source libraries.
+\*Large eco-systems of open source libraries.
 
+How node works ?
+Non-blocking Aysnchronous nature of node
+single thread is used to handle multiple requests
+node will be monitoring Event queue at the backend to see if the request is ready.Once recieved it will server the request.
